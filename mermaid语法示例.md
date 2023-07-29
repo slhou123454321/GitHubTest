@@ -34,8 +34,8 @@
 ## 流程图
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    A-->B{1};
+    A-->|2|C;
     A-->D;
     M;
     B-->F;
@@ -50,3 +50,13 @@ graph TD;
 	Client->>Gateway : 发送JSON RPC请求
 	Gateway-->>Client : 把JSON RPC响应发送给客户端
 ```
+
+## 类图
+```mermaid
+classDiagram
+class Dog
+Dog : +String name
+Dog : +bark()
+Dog : +eat(food) bool
+```
+
