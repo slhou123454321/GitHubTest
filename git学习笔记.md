@@ -59,7 +59,7 @@ D-->E(生成SSH公钥)
     git add -A  %%将所有修改过的文件添加到暂存区
     git add -u  %%将所有已跟踪的文件添加到暂存区，如果有新文件被创建或修改，则将其添加到暂存区并删除未跟踪的文件
 ### 提交
-    git commit –m"注释"  %%提交更改到服务器
+    git commit –m "注释"  %%提交更改到服务器
     git push origin master %%正式提交到远程的master服务器上
 ### checkout
     git checkout %%命令用于切换分支、恢复文件或创建新分支
@@ -70,7 +70,8 @@ D-->E(生成SSH公钥)
 ### 分支
     git branch -r  %%查看分支
     git checkout -b <分支>  %%切换分支
-    
+    git merge <分支>  %%合并分支
+
 
 ## git其他指令汇总
 git init 初始化 git，只有初始化了以后才可以使用 git 相关命令。
